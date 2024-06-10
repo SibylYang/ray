@@ -1013,7 +1013,7 @@ SORTED_WNIDS = sorted(IMAGENET_WNID_TO_LABEL.keys())
 IMAGENET_WNID_TO_ID = {wnid: SORTED_WNIDS.index(wnid) for wnid in SORTED_WNIDS}
 
 # IMG_S3_ROOT = "s3://anyscale-imagenet/ILSVRC/Data/CLS-LOC/train"
-IMG_S3_ROOT = "s3://ai-ref-arch/imagenet-full/train"
+IMG_S3_ROOT = "s3://ai-ref-arch/imagenet-mini/train"
 # PARQUET_S3_DIR = "s3://anyscale-imagenet/parquet"
 # Total Objects: 903 Total Size: 208.1 GiB
 PARQUET_S3_DIR = "s3://ai-ref-arch/imagenet-full-parquet/train/3Xd3defc4/"

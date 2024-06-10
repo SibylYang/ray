@@ -809,7 +809,7 @@ def benchmark_code(
             execution_options=options,
         ),
         run_config=RunConfig(
-            storage_path="/mnt/cluster_storage",
+            storage_path="/home/ray/output",
             failure_config=train.FailureConfig(args.num_retries),
         ),
     )
